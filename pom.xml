@@ -81,7 +81,6 @@
     <asynchttpclient.version>2.10.1</asynchttpclient.version>
     <hadoop.version>3.3.1</hadoop.version>
     <hadoop.scope>compile</hadoop.scope>
-    <spark.scala-2.11.version>2.4.5</spark.scala-2.11.version>
     <spark.scala-2.12.version>3.2.0</spark.scala-2.12.version>
     <spark.version>${spark.scala-2.12.version}</spark.version>
     <kubernetes.client.version>4.6.4</kubernetes.client.version>
@@ -92,20 +91,17 @@
     <jackson.version>2.10.1</jackson.version>
     <javax.servlet-api.version>3.1.0</javax.servlet-api.version>
     <jetty.version>9.3.24.v20180605</jetty.version>
-    <json4s.spark-2.11.version>3.5.3</json4s.spark-2.11.version>
     <json4s.spark-2.12.version>3.5.3</json4s.spark-2.12.version>
-    <json4s.version>${json4s.spark-2.11.version}</json4s.version>
+    <json4s.version>${json4s.spark-2.12.version}</json4s.version>
     <junit.version>4.11</junit.version>
     <libthrift.version>0.9.3</libthrift.version>
     <kryo.version>4.0.2</kryo.version>
     <metrics.version>3.1.0</metrics.version>
     <mockito.version>1.10.19</mockito.version>
-    <netty.spark-2.11.version>4.1.17.Final</netty.spark-2.11.version>
     <netty.spark-2.12.version>4.1.17.Final</netty.spark-2.12.version>
-    <netty.version>${netty.spark-2.11.version}</netty.version>
+    <netty.version>${netty.spark-2.12.version}</netty.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <py4j.version>0.10.7</py4j.version>
-    <scala-2.11.version>2.11.12</scala-2.11.version>
     <scala-2.12.version>2.12.14</scala-2.12.version>
     <scala.binary.version>2.12</scala.binary.version>
     <scala.version>${scala-2.12.version}</scala.version>
@@ -205,18 +201,15 @@
     <module>client-common</module>
     <module>client-http</module>
     <module>core</module>
-    <module>core/scala-2.11</module>
     <module>core/scala-2.12</module>
     <module>coverage</module>
     <module>examples</module>
     <module>python-api</module>
     <module>repl</module>
-    <module>repl/scala-2.11</module>
     <module>repl/scala-2.12</module>
     <module>rsc</module>
     <module>scala</module>
     <module>scala-api</module>
-    <module>scala-api/scala-2.11</module>
     <module>scala-api/scala-2.12</module>
     <module>server</module>
     <module>test-lib</module>
@@ -1074,14 +1067,11 @@
       </activation>
       <properties>
         <spark.scala-2.12.version>3.2.0</spark.scala-2.12.version>
-        <spark.scala-2.11.version>2.4.5</spark.scala-2.11.version>
         <spark.version>${spark.scala-2.12.version}</spark.version>
         <netty.spark-2.12.version>4.1.47.Final</netty.spark-2.12.version>
-        <netty.spark-2.11.version>4.1.47.Final</netty.spark-2.11.version>
-        <netty.version>${netty.spark-2.11.version}</netty.version>
+        <netty.version>${netty.spark-2.12.version}</netty.version>
         <java.version>1.8</java.version>
         <py4j.version>0.10.9</py4j.version>
-        <json4s.spark-2.11.version>3.5.3</json4s.spark-2.11.version>
         <json4s.spark-2.12.version>3.6.6</json4s.spark-2.12.version>
         <json4s.version>${json4s.spark-2.12.version}</json4s.version>
         <spark.bin.download.url>
