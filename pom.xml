@@ -651,7 +651,7 @@
         <plugin>
           <groupId>net.alchim31.maven</groupId>
           <artifactId>scala-maven-plugin</artifactId>
-          <version>4.2.0</version>
+          <version>4.5.4</version>
           <executions>
             <execution>
               <goals>
@@ -670,7 +670,7 @@
           <configuration>
             <scalaVersion>${scala.version}</scalaVersion>
             <recompileMode>incremental</recompileMode>
-            <checkMultipleScalaVersions>false</checkMultipleScalaVersions>
+            <checkMultipleScalaVersions>true</checkMultipleScalaVersions>
             <args>
               <arg>-unchecked</arg>
               <arg>-deprecation</arg>
