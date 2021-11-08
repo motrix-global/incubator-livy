@@ -670,7 +670,7 @@
           <configuration>
             <scalaVersion>${scala.version}</scalaVersion>
             <recompileMode>incremental</recompileMode>
-            <checkMultipleScalaVersions>true</checkMultipleScalaVersions>
+            <checkMultipleScalaVersions>false</checkMultipleScalaVersions>
             <args>
               <arg>-unchecked</arg>
               <arg>-deprecation</arg>
